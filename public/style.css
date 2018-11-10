@@ -1,0 +1,46 @@
+.doo {
+  position: relative;
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+  padding-right: 0 !important;
+  margin-right: 0 !important;
+  height: 12rem;
+  overflow-y: auto;
+}
+.message {
+  padding: 0.1rem 0.5rem;
+
+  background: #ccc;
+
+  border-radius: 5px 0px 5px 5px;
+  position: relative;
+  top: 20px;
+  margin-bottom: 0.3rem;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+#awre {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-right: 0.7rem;
+}
